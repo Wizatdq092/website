@@ -71,7 +71,7 @@ Finally, we need to make a slight modification to the package.json file by addin
 
 This will make it so the page will also work on IPFS gateways whose URLs are in the format `/ipfs/HASH`
 
-Fleek will grab the application from your GitHub repo, so the next thing to do is to create a GitHub repository with our app in it. This is the repo for the app above: https://github.com/SamueleA/create-react-app-ipfs-deployFeel free to fork it. Let’s deploy it now!
+Fleek will grab the application from your GitHub repo, so the next thing to do is to create a GitHub repository with our app in it. This is the repo for the app above: https://github.com/SamueleA/create-react-app-ipfs-deploy Feel free to fork it. Let’s deploy it now!
 
 ### **Step 2: Deploying the App Through Fleek**
 
@@ -113,5 +113,5 @@ Creating the default react app and deploying it to IPFS takes less than 10 minut
 
 - Join our [Community Chat](https://discord.com/invite/fleek)
 - Follow us on [Twitter](https://twitter.com/fleek)
-- Check out our [Tech Docs](https://docs.fleek.xyz/)
+- Check out our [Tech Docs](/docs/)
 - Contact us at support@fleek.xyz
