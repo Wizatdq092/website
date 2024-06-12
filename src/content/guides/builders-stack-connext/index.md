@@ -111,10 +111,6 @@ Hashi is a cross-chain NFT bridge built with Connext. Projects can use NFTHashi 
 
 Dodo is a decentralized trading platform that uses the [Proactive Market Maker (PMM) algorithm](https://docs.dodoex.io/english/dodo-academy/pmm-overview) to provide efficient on-chain liquidity for Web3 assets. [DODO is leveraging Connext’s SDK](https://blog.connext.network/dodo-integrates-connext-599808dcb73b) to power their token bridge.
 
-### Cross-chain Lending (e.g. [Fuji Finance](https://fuji.finance/))
-
-Fuji Finance has implemented Connext in their Web3 app for users to lend on one chain and borrow on another. Interest rates on open positions are optimized with rates across multiple lending markets, protocols, and chains. In the background, Fuji routes users’ loan requests to the liquidity sources with the best rates and refinances the open positions. Fuji relies on Connext’s xERC20 features to enable unlimited cross-chain composability.
-
 ---
 
 ## Getting Started
@@ -138,7 +134,7 @@ Fuji Finance has implemented Connext in their Web3 app for users to lend on one 
 
 We hope you enjoyed learning about Connext. Cross-chain governance is on the team's roadmap and coming soon! Follow Connext on [X](https://twitter.com/ConnextNetwork) to stay up to date on what the team is working on.
 
-If you enjoyed learning about the protocol check out more of our [Build3rs Stack articles](https://blog.fleek.xyz/category/guides/).
+If you enjoyed learning about the protocol check out more of our [Build3rs Stack articles](/guides/).
 
 You can also [join our Discord server](https://discord.com/invite/fleek) to jam with the team and learn more!
 
