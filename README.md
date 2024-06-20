@@ -35,6 +35,7 @@ This repository contains the source code and assets for the Fleek.xyz website, w
         - [Troubleshooting open graph](#troubleshooting-open-graph)
 - [Development](#-development)
     - [Search server](#-search-server)
+      - [Multi-index search](#multi-index-search)
     - [Delete Indexes](#💣-delete-indexes)
     - [Images (optimization)](#-images-optimization)
 - [Migration](#-migration)
@@ -86,6 +87,8 @@ PUBLIC_MEILISEARCH_INDEX_REFERENCES="fleekxyz_website_references"
 PRIVATE_MEILISEARCH_MASTER_KEY=***
 PRIVATE_MEILISEARCH_DOCUMENTS_ADMIN_API_KEY=***
 PUBLIC_MEILISEARCH_DOCUMENTS_CLIENT_API_KEY=***
+PUBLIC_SUPPORT_API="localhost:3331"
+ALLOW_ORIGIN_ADDR="http://localhost:4321"
 ```
 
 ## 🏗️ Build
@@ -700,6 +703,35 @@ curl \
   --data-binary '{ "q": "<SEARCH_QUERY>" }'
 ```
 
+### Multi index search
+
+Here's an example of how to perform multiple search queries on one or more indexes:
+
+```sh
+curl \
+  -X POST 'http://localhost:7700/multi-search' \
+  -H 'Content-Type: application/json' \
+  --data-binary '{
+    "queries": [
+      {
+        "indexUid": "fleekxyz_website_docs",
+        "q": "something",
+        "limit": 5
+      },
+      {
+        "indexUid": "fleekxyz_website_guides",
+        "q": "something",
+        "limit": 5
+      },
+      {
+        "indexUid": "fleekxyz_website_references",
+        "q": "something",
+        "limit": 5
+      }
+    ]
+  }'
+```
+
 ### 💣 Delete Indexes
 
 Delete Index data by running the command:
@@ -829,6 +861,12 @@ Everytime a build happens, the static JSON data should be updated.
 ## Support
 
 ZenDesk is an external provider that provides an API to interact with the service. The following documentation provides information to interace with the proxy server.
+
+### Setup
+
+The application should get the endpoint URL from an environment variable named `PUBLIC_SUPPORT_API`.
+
+Learn how to setup by reading the section [environment variables](#environment-variables).
 
 ### Tokens
 

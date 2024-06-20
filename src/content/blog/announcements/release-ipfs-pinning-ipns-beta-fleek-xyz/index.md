@@ -2,8 +2,8 @@
 title: 'The CLI Beta is Live, with IPFS Pinning & IPNS.'
 date: 2023-01-17
 desc: 'Fleek.xyz’s first beta release is live with the new CLI, including the IPFS Pinning and IPNS Mapping services.'
-thumbnail: './fleek-wide.png'
-image: './fleek-wide.png'
+thumbnail: './ipfspinningbeta.png'
+image: './ipfspinningbeta.png'
 ---
 
 This is not a drill, it’s Fleek.xyz first beta release. We are stoked to start the first chapter of Fleek’s new platform with the **test-phase of our new CLI and its two services: IPFS pinning and IPNS mapping.** Both services are live and ready to be battle-tested.
@@ -30,7 +30,7 @@ Today we present the first of Fleek’s building blocks and interface: the Fleek
 
 The command line interface provides direct access to Fleek’s services suite, starting with IPFS Pinning and IPNS hash mapping in this beta. Via simple commands, developers can easily create an account and authenticate to Fleek, push and pin files to IPFS, get their hashes, as well as create and manage IPNS records.
 
-The CLI will grow as more services are added to the platform (Sites Deployments coming next). You can find the CLI’s NPM here, and we welcome everybody to share [any thoughts and feedback here!](https://github.com/fleekxyz/fleekxyz-support)
+The CLI will grow as more services are added to the platform (Sites Deployments coming next). You can find the CLI’s NPM here, and we welcome everybody to share [any thoughts and feedback here!](https://discord.gg/fleek)
 
 ---
 
@@ -70,5 +70,3 @@ Now that the CLI is out on beta, expect updates to its features and services on 
 We can’t be more excited to start getting Fleek’s new tools into the hands of the community, so thanks from the team for helping us test! Come say hi on our [Discord](https://discord.gg/fleek), and bring any feature ideas over.
 
 **What’s next on the table?** We’ll be working on improvements to storage, and how users can resolve/access their files, as well as growing the App UI for manual file upload, and Sites Deployments via CLI.
-
-For more resources visit [our LinkTree](https://linktr.ee/fleek).
