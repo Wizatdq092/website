@@ -8,7 +8,7 @@ image: './ipfspinningbeta.png'
 
 This is not a drill, it’s Fleek.xyz first beta release. We are stoked to start the first chapter of Fleek’s new platform with the **test-phase of our new CLI and its two services: IPFS pinning and IPNS mapping.** Both services are live and ready to be battle-tested.
 
-Tested by whom, you ask? **Well everyone’s welcome!** If you’ve signed up for our newsletter already, you probably got the heads-up already, else… Our [docs are live and ready](/docs) for testers to follow, and if you find any bugs or have feedback to share: [let us know here](https://discord.com/invite/fleek), it’ll be greatly appreciated!
+Tested by whom, you ask? **Well everyone’s welcome!** If you’ve signed up for our newsletter already, you probably got the heads-up already, else… Our [docs are live and ready](/docs) for testers to follow, and if you find any bugs or have feedback to share: [let us know here](https://discord.gg/fleek), it’ll be greatly appreciated!
 
 We’re kicking off with Pinning and IPNS, and expect us to follow up on our next release with Sites Deployment. In this beta, we want to hear from developers testing our CLI, as we prepare to **build these services in Fleek’s UI, API, and SDK.**
 
