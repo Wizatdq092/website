@@ -97,4 +97,3 @@ Enjoyed brushing up on NFAs? You’ll love our other recent blogs:
 - [Introducing NFA’s: Non-Fungible Apps](/uncategorized/introducing-nfas-non-fungible-apps/)
 - [Fleek CLI Beta Announcement (w/ IPFS Pinning)](/announcements/release-ipfs-pinning-ipns-beta-fleek-xyz/)
 
-For all other socials, docs, contact info, and more, checkout [our Linktree](https://linktr.ee/fleek) ⚡️
